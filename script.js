@@ -14,7 +14,7 @@ const music = new Howl({
 
 
 const glitch = new Howl({
-  src: ["https://manzdev.github.io/twitch-matrix-canvas/glitch.mp3"],
+  src: [""],
   loop: false });
 
 
