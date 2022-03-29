@@ -9,7 +9,7 @@ let HEIGHT = canvas.height = innerHeight;
 let totalColumns = Math.floor(WIDTH / TEXT_HEIGHT) + 1;
 
 const music = new Howl({
-  src: ["https://manzdev.github.io/twitch-matrix-canvas/loop-music-connection.mp3"],
+  src: [""],
   loop: true });
 
 
