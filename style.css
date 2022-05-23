@@ -194,13 +194,7 @@ body {
 .animate{
     animation: jump 500ms;
 }
-
-#myheader{
-    color:limegreen;
-    text-align:center;
-    margin-top:50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+  
 
 #block{
     width: 20px;
@@ -209,7 +203,7 @@ body {
     position: relative;
     top:130px;
     left:480px;
-    animation: block 1s infinite linear;
+    animation: block 2s infinite linear;
 }
 @keyframes block{
     0% {left:480px;}
