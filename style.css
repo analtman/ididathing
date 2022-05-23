@@ -59,6 +59,55 @@ body {
   text-decoration: none;
 }
 
+/*Test*/
+.manz0 {
+  position: absolute;
+  top: -180px;
+  left: calc(50% - 400px);
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.manz0 img {
+  transform: scale(1);
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: pixelated;
+  -webkit-clip-path: inset(5%);
+          clip-path: inset(5%);
+}
+
+.manz0 div {
+  width: 800px;
+  height: 105px;
+  text-align: center;
+  font-family: "Bebas Neue", monospace;
+  font-size: 92px;
+  color: #fff;
+  background: #000e;
+  text-shadow: 0 0 10px #0f0;
+  box-shadow: 0 0 10px 4px #0f0;
+}
+
+.manz0 a {
+  color: #0f0;
+  text-shadow: 0 0 35px #0f0;
+  text-decoration: none;
+}
+
+.manz0 div.comic {
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 53px;
+  line-height: 190%;
+}
+
+/*Test*/
+
+
 .moved {
   transform: translate(10px, 10px);
 }
@@ -117,3 +166,63 @@ body {
 .created a:hover {
     color: #e6e82a;
   }
+
+  /*Game*/
+
+  *{
+    padding-top:0;
+    margin:0;
+}
+
+#game{
+    margin-top:200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 200px;
+    border: 10px solid black;
+}
+
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: limegreen;
+    position: relative;
+    top:150px;
+}
+
+.animate{
+    animation: jump 500ms;
+}
+
+#myheader{
+    color:limegreen;
+    text-align:center;
+    margin-top:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#block{
+    width: 20px;
+    height: 20px;
+    background-color:red;
+    position: relative;
+    top:130px;
+    left:480px;
+    animation: block 1s infinite linear;
+}
+@keyframes block{
+    0% {left:480px;}
+    100% {left:-40px;}  
+}
+
+@keyframes jump{
+    0% {top: 150px;}
+    30% {top: 100px;}
+    70% {top: 100px;}
+    100% {top: 150px;}
+}
+
+body{
+    background-color: pink;
+}

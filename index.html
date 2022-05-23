@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en" onkeyup="jump()" onclick="jump()">
 <head>
   <meta charset="UTF-8">
   <title>I may have done something</title>
@@ -8,12 +8,18 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<canvas id="canvas"></canvas>
-  <div class="manz">
-    <img src=".idea/itsMe2.png" alt="Manztrix">
-    <div>I did a <a href="https://manz.dev/">thing</a></div>
-  </div>
+<div class="manz">
+  <img src=".idea/itsMe2.png" alt="Manztrix">
+  <div>I did a <a href="#">thing</a></div>
+</div>
 
+<canvas id="canvas"></canvas>
+  <div class="manz0">
+    <div id="game">
+      <div id="character"></div>
+      <div id="block"></div>
+    </div>
+  </div>
 <!-- partial   -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js'></script><script  src="./script.js"></script>
 
